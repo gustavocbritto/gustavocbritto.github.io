@@ -16,6 +16,10 @@
       $(document).ready(function () {
         $('#main_content').headsmart()
       })
+      
+      $("teste2").click(function(){
+      $("teste").append("<input type="text" name="cardapio" size="40">");
+      });
     </script>
     <title>Pedido Rapido by gustavocbritto</title>
   </head>
@@ -51,7 +55,7 @@
         </h1>
       <table>
  <tr>
-   <td>Nome do Bar:</td>
+   <td id='Teste'>Nome do Bar:</td>
    <td><input type="text" name="Nome" size="40"> <br /></td>
  </tr>
  <tr>
@@ -59,7 +63,7 @@
    <td><input type="text" name="Localizacao" size="40"> <br /></td>
  </tr>
 </table>
-<input name="" type="button" value="Cadastrar">
+<input name="teste2" type="button" value="Cadastrar">
       </section>
 
       <footer>
